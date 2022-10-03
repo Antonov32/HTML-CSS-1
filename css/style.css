@@ -14,11 +14,25 @@ body {
   background-color: grey;
 }
 
+.link:hover,
+.hero-link:hover,
+.hero-item:hover,
+.header-tel:hover {
+  color: #ff6c00;
+}
+
+.link:focus,
+.hero-link:focus,
+.hero-item:focus,
+.header-tel:focus {
+  color: #ff6c00;
+}
+
 .header-link,
 .header-tel {
   font-weight: 600;
   font-size: 12px;
-  line-height: 1.33px;
+  line-height: 1.33;
   letter-spacing: 0.1em;
   color: #ffffff;
 }
@@ -28,7 +42,7 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 1.33px;
+  line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: #ffffff;
@@ -54,7 +68,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 72px;
-  line-height: 1.18px;
+  line-height: 1.18;
   letter-spacing: 0.05em;
   color: #ffffff;
 }
@@ -64,4 +78,24 @@ body {
   line-height: calc(30 / 18);
   letter-spacing: 0.02em;
   color: #9da4bd;
+}
+
+.hero {
+  background-color: #191c26;
+}
+
+.about {
+  background-color: #ffffff;
+}
+.about-list {
+}
+.about-item {
+}
+.about-pre-title {
+}
+.about-title {
+}
+.about-after-title {
+}
+.about-btn {
 }
