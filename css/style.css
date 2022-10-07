@@ -1,5 +1,5 @@
 body {
-  font-family: "open sans" sans-serif;
+  font-family: "open sans", sans-serif;
 }
 
 .list {
@@ -48,6 +48,8 @@ body {
   color: #ffffff;
 }
 
+/* HERO */
+
 .hero-link {
   font-weight: 600;
   font-size: 11px;
@@ -81,21 +83,53 @@ body {
 }
 
 .hero {
-  background-color: #191c26;
+  background-color: #303030;
 }
+
+/* ABOUT */
 
 .about {
   background-color: #ffffff;
 }
-.about-list {
-}
-.about-item {
-}
+
 .about-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
 }
+
 .about-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #303030;
 }
+
 .about-after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
 }
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
 .about-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #303030;
 }
