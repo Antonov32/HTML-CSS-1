@@ -260,3 +260,64 @@ body {
 }
 .gallery-item {
 }
+
+/* ONLINE */
+
+.online {
+  background-color: #191c26;
+}
+
+.online-title {
+  color: var(--main-title-color);
+}
+
+/* CONTACTS */
+
+.contacts {
+  background-color: #191c26;
+}
+
+.contacts-title {
+  color: var(--main-title-color);
+}
+
+.contacts-address {
+  font-style: normal;
+}
+
+.contacts-map-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.contacts-list {
+}
+
+.contacts-item {
+}
+
+.contacts-link {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #9da4bd;
+}
+
+.contacts-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.contacts-schedule {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
